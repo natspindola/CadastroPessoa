@@ -53,7 +53,7 @@ namespace CadastroPessoa
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Pessoas}/{action=Index}/{id?}");
             });
         }
     }
